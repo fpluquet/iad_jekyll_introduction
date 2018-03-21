@@ -36,7 +36,7 @@ Faites ensuite un petit `brew doctor` pour vérifier que tout est en ordre. Si v
 
 La méthode conseillée sur mac est d'installer RVM (Ruby Version Manager) qui vous permettra facilement de gérer différentes versions de Ruby sur votre machine (ce qui peut s'avérer pratique, faites-moi confiance).
 
-`\curl -#L https://get.rvm.io | bash -s stable --ruby`
+`\curl -L https://get.rvm.io | bash -s stable --ruby`
 
 Cette commande installera la dernière version stable de RVM, ainsi que la dernière version stable de Ruby. N'oubliez pas de redémarrer votre terminal pour que les changements soient effectifs.
 
@@ -72,7 +72,7 @@ Si vous souhaitez simplement installer Jekyll, tapez simplement `gem install jek
 
 ### Mise à jour de Jekyll
 
-Si vous n'installer pas Bundler, `gem update jekyll` vous permettra de mettre à jour votre version de Jekyll lorsqu'une nouvelle version est disponible.
+Si vous n'installez pas Bundler, `gem update jekyll` vous permettra de mettre à jour votre version de Jekyll lorsqu'une nouvelle version est disponible.
 
 Si bundler est installé, il suffit de modifier la version de Jekyll spécifiée dans votre Gemfile et de taper `bundle update`
 
